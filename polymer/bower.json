@@ -1,0 +1,9 @@
+{
+  "name": "polymer example",
+  "version": "1.0.0",
+  "main": "index.html",
+  "dependencies": {
+    "polymer": "master",
+    "polymer-ui-elements": "master"
+  }
+}

@@ -1,0 +1,53 @@
+.my-menu-item {
+  display: block;
+  height: 30px;
+  background-color: #ddd;
+}
+
+.my-menu {
+  display: inline-block;
+  background-color: #ddf;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+.my-menu .my-menu-item {
+  font-size: 10px;
+}
+
+.my-menu-button {
+  display: inline-block;
+  background-color: #fefefe;
+  padding: 20px;
+  font-family: Helvetica;
+  -webkit-user-select: none;
+}
+
+.button {
+  background-color: #ccc;
+  width: 50px;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.overlay {
+  display: none;
+}
+
+.overlay.opened {
+  z-index: 2;
+  display: block;
+  position: absolute;
+}
+
+.overlay.opened ~ .background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
